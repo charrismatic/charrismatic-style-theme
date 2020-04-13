@@ -1,0 +1,32 @@
+// @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:200,300,400,500,600,700&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:100,200,300,400,500,600,700&display=swap');
+// @include font-face('fira-condensed-extra', '/assets/fonts/fira-condensed-extra', 200 700, normal, woff2);
+// @include font-face('fira-condensed', '/assets/fonts/fira-condensed', 200 700, normal, woff2);
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap');
+// @include font-face('open-sans-condensed', 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap');
+// @include add_font('open-sans-condensed', 'open-sans-condensed.woff', '300,700');
+// @import url('https://fonts.googleapis.com/css?family=Asap+Condensed:400,500,600,700&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+// .font-sharetechmono { font-family: $sharetechmono; }
+// @include font-face('share-tech-mono', '/assets/fonts/sharetechmono');
+// .font-sourcesanspro {
+//   font-family: $sourcesanspro;
+//   &-200 { font-family: $sourcesanspro; font-weight: 200; }
+//   &-300 { font-family: $sourcesanspro; font-weight: 300; }
+//   &-400 { font-family: $sourcesanspro; font-weight: 400; }
+//   &-700 { font-family: $sourcesanspro; font-weight: 700; }
+// }
+// .font-roboto {
+//   font-family: $roboto;
+//   &-400 { font-family: $roboto; font-weight: 400; }
+//   &-500 { font-family: $roboto; font-weight: 500; }
+//   &-300 { font-family: $roboto; font-weight: 300; }
+//   &-700 { font-family: $roboto; font-weight: 700; }
+//   &-900 { font-family: $roboto; font-weight: 900; }
+// }
+// .font-opensanscondensed {
+//   font-family: $opensanscondensed;
+//   &-300 { font-family: $opensanscondensed; font-weight: 300; }
+//   &-700 { font-family: $opensanscondensed; font-weight: 700; }
+// }

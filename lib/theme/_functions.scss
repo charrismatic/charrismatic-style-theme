@@ -1,0 +1,50 @@
+///
+/// Convert font-size from px to rem with px fallback
+/// @param $size - the value in pixel you want to convert
+/// {@include fontSize(12px);}
+///
+@function px2rem($pxSize) {
+  //Default font size is 16px;
+  $baseSize: ( 16px / 1px );
+  $remSize: ( $pxSize / $baseSize );
+
+  @return $remSize  ;
+}
+
+
+///
+/// Convert font-size from rem to px
+/// @param $size - the value in pixel you want to convert
+///  {@include fontSize(12px);}
+///
+@function rem2px($remSize) {
+  //Default font size is 16px;
+  $baseSize: 16px;
+  $remValue: ( $remSize / 1rem );
+  $pxSize: ( $remValue * $baseSize );
+
+  @return $pxSize;
+}
+
+
+
+////
+/// CSS VARIABLE FUNCTION
+/// `var(--myVar)`
+///
+/// - `color: v(primary);`
+/// - `color: v(primary, #000);`
+/// - `padding-left: v(x-padding, 2rem);`
+/// - `transform: translate3d(v(x-delta), v(y-delta), 0);`
+///
+///  {$propertyName}  name of the CSS custom property, without its double hyphen prefix
+///  {$fallback}     *optional* (default null) custom property fallback value
+////
+
+@function v($propertyName: '', $fallback: null) {
+  @if ($fallback) {
+    @return var(--#{$propertyName}, $fallback);
+  }
+
+  @return var(--#{$propertyName});
+}

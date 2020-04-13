@@ -1,0 +1,33 @@
+{
+  "author": "Matt Harris",
+  "bugs": {
+    "url": "https://github.com/charrismatic/charrismatic-style-theme/issues"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "description": "Portable and configurable extension of the main library",
+  "homepage": "https://charrismatic.github.io/charrismatic-style-theme",
+  "keywords": [
+    "sass",
+    "styles",
+    "css-variables",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "charrismatic-style-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charrismatic/charrismatic-style-theme.git"
+  },
+  "scripts": {
+    "build": "./run/styles",
+    "dev": "./run/styles-dev",
+    "lint:style": "./run/styles-lint",
+    "lint:pkg": ".jsonlint package.json --pretty-print  --sort-keys --in-place",
+    "meta:bump": "npm version patch -m \"Increasing npm package version v%s\"",
+    "meta:release": "npm version patch -m \"Release: %s\"",
+    "start": "npm run lint && npm run dev"
+  },
+  "version": "1.0.0"
+}
