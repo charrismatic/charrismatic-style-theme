@@ -22,7 +22,7 @@
   },
   "scripts": {
     "build": "./run/styles",
-    "dev": "./run/styles-dev",
+    "dev": "./run/styles inronhacks.scss-dev",
     "lint:style": "./run/styles-lint",
     "lint:pkg": ".jsonlint package.json --pretty-print  --sort-keys --in-place",
     "meta:bump": "npm version patch -m \"Increasing npm package version v%s\"",

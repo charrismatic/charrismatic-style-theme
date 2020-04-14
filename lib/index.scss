@@ -1,12 +1,16 @@
 
 // THIRD PARTY LIBRARIES
+// note: for the charrismatic groups
+// the library includes all the functions,
+// variables and mixins, but  importing this
+// should not produce any classes on the stylessheet
 // @import 'vendor/fontawesome';
 
 // STYLE LIBRARY
-@import 'charrismatic/colors/library';
-@import 'charrismatic/fonts/library';
-@import 'charrismatic/flex/library';
-@import 'charrismatic/effects/library';
+@import "charrismatic/colors/library";
+@import "charrismatic/fonts/library";
+@import "charrismatic/flex/library";
+@import "charrismatic/effects/library";
 
 
 ////
@@ -52,20 +56,11 @@
 @import "stylesheet/HEADER";
 @import "stylesheet/root";
 @import "stylesheet/base";
-@import 'charrismatic/colors/utility';
-@import 'charrismatic/fonts/utility';
+@import 'charrismatic/colors/classes';
+@import 'charrismatic/fonts/classes';
 @import 'charrismatic/format/index';
-@import 'charrismatic/flex/utility';
-@import 'charrismatic/effects/utility';
-@import 'charrismatic/typography/utility';
-@import 'vendor/fontawesome';
+@import 'charrismatic/flex/classes';
+@import 'charrismatic/effects/classes';
+// @import 'charrismatic/typography';
 
-// BLOCK COMPONENTS
-@import "blocks/layout";
-@import "blocks/label";
-@import "blocks/group";
-@import "blocks/banner";
-@import "blocks/sidebar";
-@import "blocks/section";
-@import "blocks/job";
-@import "blocks/skill";
+// @import 'vendor/fontawesome';
