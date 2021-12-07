@@ -30,8 +30,6 @@ Matt Harris
 
 ### Config Options
 
-
-
 ## Usage
 
 -  build: "./run/styles"
@@ -43,8 +41,6 @@ Matt Harris
 -  start: "npm run lint && npm run dev"
 
 ## Development
-
-
 
 ### Contributors
 
