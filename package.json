@@ -4,7 +4,7 @@
     "url": "https://github.com/charrismatic/charrismatic-style-theme/issues"
   },
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   },
   "description": "Portable and configurable extension of the main library",
   "homepage": "https://charrismatic.github.io/charrismatic-style-theme",
